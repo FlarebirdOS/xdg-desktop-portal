@@ -1,6 +1,6 @@
 pkgname=xdg-desktop-portal
 pkgver=1.20.3
-pkgrel=1
+pkgrel=2
 pkgdesc="Desktop integration portals for sandboxed apps"
 arch=('x86_64')
 url="https://flatpak.github.io/xdg-desktop-portal"
@@ -24,7 +24,7 @@ depends=(
 makedepends=(
     'bubblewrap'
     'docbook-xsl'
-    #'flatpak'
+    'flatpak'
     'geoclue'
     'git'
     'glib2-devel'
